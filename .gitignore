@@ -1,7 +1,9 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
+# Dependencies
 node_modules/
+.pnp/
+.pnp.js
 
 # Expo
 .expo/
@@ -9,33 +11,88 @@ dist/
 web-build/
 expo-env.d.ts
 
-# Native
+# Native build folders
+/ios/
+/android/
 .kotlin/
+
+# Native build artifacts
 *.orig.*
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
+*.cer
+*.certSigningRequest
 
 # Metro
 .metro-health-check*
 
-# debug
+# Debug logs
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.log
+logs/
 
 # macOS
 .DS_Store
 *.pem
+.AppleDouble
+.LSOverride
+._*
 
-# local env files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production.local
 .env*.local
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 
-# generated native folders
-/ios
-/android
+# Testing
+coverage/
+.nyc_output/
+
+# Build outputs
+build/
+out/
+*.bundle
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# EAS
+.eas/
+
+# Sentry
+.sentryclirc
+
+# Misc
+*.bak
+*.cache
