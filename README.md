@@ -9,7 +9,7 @@
 
 **A modern, premium e-commerce mobile application for supplements and fitness products**
 
-[Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
+[Live Demo](https://supplement-ge.netlify.app) • [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
 
 </div>
 
@@ -54,6 +54,12 @@
 
 <p align="center">
   <img src="assets/screenshots/24_app_preview.gif" width="300" alt="App Preview"/>
+</p>
+
+<p align="center">
+  <a href="https://supplement-ge.netlify.app">
+    <b>🌐 Try Live Web Demo</b>
+  </a>
 </p>
 
 ### Core Screens
